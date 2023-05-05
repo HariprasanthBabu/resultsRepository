@@ -56,6 +56,6 @@ public class ResultsDao {
 	public List<Results> getMiddleStudents() {
 		return resRepo.getMiddleStudents();
 	}
-	
+		
 
 }

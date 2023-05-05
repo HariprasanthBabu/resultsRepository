@@ -63,7 +63,7 @@ public class ResultsController {
 	return resSer.addResults(res);
 
 	}
-	@GetMapping(value = "/getId/{id}")
+	@GetMapping(value = "/getIdforList/{id}")
 	public Results getResults(@PathVariable int id) {
 		return resSer.getResults(id);
 	}
